@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Повтори мем 📸</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="start-screen" class="container">
+
+    <h1>🎉 Мем-челлендж 🎉</h1>
+
+    <p class="instructions">
+        1. Нажмите кнопку ниже<br>
+        2. Повторите выпавший мем<br>
+        3. Сделайте фото на Polaroid<br>
+        4. Оставьте снимок на память ❤️
+    </p>
+
+    <button onclick="startGame()">
+        🎲 Получить мем
+    </button>
+
+</div>
+
+<div id="meme-screen" class="container hidden">
+
+    <h1>Повторите этот мем 📸</h1>
+
+    <img id="meme" src="" alt="Мем">
+
+    <div class="buttons">
+
+        <button onclick="newMeme()">
+            🔄 Дай другой мем
+        </button>
+
+        <button onclick="goHome()">
+            🏠 На главную
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
