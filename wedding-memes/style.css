@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #faf7f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.instructions {
+    font-size: 22px;
+    line-height: 1.8;
+    margin: 40px 0;
+}
+
+img {
+    max-width: 95%;
+    max-height: 70vh;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+button {
+    margin: 10px;
+    padding: 16px 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 20px;
+}
